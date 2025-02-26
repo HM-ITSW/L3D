@@ -11,6 +11,10 @@ This repository contains the code and resources for the research paper submitted
 
 > Email: {Ho.mohammadalizadeh, Holger.karl}@hpi.de
 
+**The authors acknowledge the financial support by the Federal Ministry
+of Education and Research of Germany in the project “Open6GHub” (grant
+number: 16KISK011)**
+
 ## Abstract
 
 Drone swarms are  attractive  to on-demand  provide capacity and coverage  in mobile access networks. As drones are power-hungry, ground-based lasers and drone-mounted solar cells can be used to deliver power to them. Lest we need line-of-sight from a laser, a master drone with a steerable mirror can be used to forward power to slave drones, with only minor efficiency loss. Once such  laser \& mirror are in place, they can also be used to simultaneously deliver data to the selected slave drone, alleviating radio link congestion towards slave drones. 
@@ -22,6 +26,10 @@ This capability creates a trade-off between power and data delivery: how to deci
 - Dual use of the laser for both power and data, trading extra capacity for a reduced lifespan based on system needs.
 - A two-step optimization: (i) ensuring connectivity by keeping a minimum fraction of users connected, and (ii) maximizing network lifespan through power-only and power-and-data delivery.
 - An evaluation of these solutions in terms of network lifespan, coverage, and capacity, highlighting key trade-offs.
+
+**Datasets:**
+
+The datasets generated from ns-3 for different configurations have been uploaded to [Google Drive](https://drive.google.com/drive/folders/1zZRRkLt9LYwmP-urwu8MsooVHQ-o3MjB?usp=sharing). Please download them and place them in the `simulation_results` folder to run the simulations.
 
 **Repository structure:**
 ```
@@ -37,4 +45,5 @@ Code/
 │   ├── Optimization.ipynb/             # actual optimization
 
 ```
+
 Refer to [ns-3 Installation Guide](https://www.nsnam.org/docs/installation/html/) for the detailed ns-3 installation.
