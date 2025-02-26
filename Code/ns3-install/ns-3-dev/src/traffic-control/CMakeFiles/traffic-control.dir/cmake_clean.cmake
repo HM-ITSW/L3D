@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "../../build/lib/libns3-dev-traffic-control-default.pdb"
+  "../../build/lib/libns3-dev-traffic-control-default.so"
+  "CMakeFiles/traffic-control.dir/helper/queue-disc-container.cc.o"
+  "CMakeFiles/traffic-control.dir/helper/queue-disc-container.cc.o.d"
+  "CMakeFiles/traffic-control.dir/helper/traffic-control-helper.cc.o"
+  "CMakeFiles/traffic-control.dir/helper/traffic-control-helper.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/cobalt-queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/cobalt-queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/codel-queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/codel-queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/fifo-queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/fifo-queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/fq-cobalt-queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/fq-cobalt-queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/fq-codel-queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/fq-codel-queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/fq-pie-queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/fq-pie-queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/mq-queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/mq-queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/packet-filter.cc.o"
+  "CMakeFiles/traffic-control.dir/model/packet-filter.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/pfifo-fast-queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/pfifo-fast-queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/pie-queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/pie-queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/prio-queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/prio-queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/red-queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/red-queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/tbf-queue-disc.cc.o"
+  "CMakeFiles/traffic-control.dir/model/tbf-queue-disc.cc.o.d"
+  "CMakeFiles/traffic-control.dir/model/traffic-control-layer.cc.o"
+  "CMakeFiles/traffic-control.dir/model/traffic-control-layer.cc.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/traffic-control.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
