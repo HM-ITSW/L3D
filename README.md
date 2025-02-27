@@ -29,7 +29,7 @@ This capability creates a trade-off between power and data delivery: how to deci
 
 **Datasets:**
 
-The datasets generated from ns-3 for different configurations have been uploaded to [Google Drive](https://drive.google.com/drive/folders/1zZRRkLt9LYwmP-urwu8MsooVHQ-o3MjB?usp=sharing). Please download them and place them in the `simulation_results` folder to run the simulations.
+The NS-3 generated datasets used in the paper for evaluation have been uploaded to [Google Drive](https://drive.google.com/drive/folders/1zZRRkLt9LYwmP-urwu8MsooVHQ-o3MjB?usp=sharing) for your convenience. Each simulation models a 5-hour period. You can download them and place them in the simulation_results folder to run the simulations. Alternatively, feel free to generate the results for any configuration you desire.
 
 **Repository structure:**
 ```
