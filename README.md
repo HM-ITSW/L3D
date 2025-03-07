@@ -17,15 +17,27 @@ number: 16KISK011)**
 
 ## Abstract
 
-Drone swarms are  attractive  to on-demand  provide capacity and coverage  in mobile access networks. As drones are power-hungry, ground-based lasers and drone-mounted solar cells can be used to deliver power to them. Lest we need line-of-sight from a laser, a master drone with a steerable mirror can be used to forward power to slave drones, with only minor efficiency loss. Once such  laser \& mirror are in place, they can also be used to simultaneously deliver data to the selected slave drone, alleviating radio link congestion towards slave drones. 
-This capability creates a trade-off between power and data delivery: how to decide which drone should be targeted for power or data delivery and how to split the laser between power and data, once a drone has been selected. We study this trade-off for different radio, power delivery, and usage models, casting it as an optimisation problem for the  operational time of a drone network. We found that our system and optimisation framework can extend the drone swarm’s overall lifetime by about 21 minutes when delivering power only, and—when delivering both power and data—can also provide extra capacity via a high-throughput FSO link to relieve radio interface congestion, all without needing additional drones.
+Drone swarms are  attractive  to on-demand  provide capacity and coverage  in mobile access networks. 
+As drones are power-hungry lasers can be used to deliver power to them.
+Lest we need LoS from a laser, a master drone with a steerable mirror can be used to forward power
+to slave drones, with only minor efficiency loss. 
+Once such  laser \& mirror are in place, they can also be used to simultaneously deliver data to the 
+selected slave drone, alleviating radio link congestion towards slave drones. 
+This capability creates a trade-off between power and data delivery: how to decide which drone should 
+be targeted for power or data delivery and how to split the laser between power and data, once a drone has been 
+selected.  
+We study this trade-off for different radio, power delivery, and usage models, casting it as an optimisation problem for the 
+operational time of a drone network. We found that our system and optimisation framework can extend the drone swarm’s overall 
+lifetime by 8.5% when delivering power only. Meanwhile, when delivering both power and data, 
+the swarm also gains extra capacity via a high-throughput FSO link -- though with a smaller increase in overall lifetime -- 
+all without needing additional drones.
 
 **Key Contributions:**
 
-- A novel laser-assisted aerial communication network model that extends UAV operation via laser power delivery.
-- Dual use of the laser for both power and data, trading extra capacity for a reduced lifespan based on system needs.
-- A two-step optimization: (i) ensuring connectivity by keeping a minimum fraction of users connected, and (ii) maximizing network lifespan through power-only and power-and-data delivery.
-- An evaluation of these solutions in terms of network lifespan, coverage, and capacity, highlighting key trade-offs.
+- We proposed a novel laser-assisted aerial communication network model that extends UAV operation through laser power delivery, eliminating the need for base station proximity and direct LoS constraints, typical of prior approaches.
+- We used the dual use of the laser for power and data, enabling a trade-off between extra capacity and reduced lifespan based on system requirements.
+- We presented a method to maximize coverage while ensuring a minimum fraction of users remain connected throughout the drone swarm’s operation.
+- We developed a framework that decides when to recharge which drone -- and optionally offload data to -- without compromising coverage.
 
 **Datasets:**
 
