@@ -19,18 +19,8 @@ number: 16KISK011)**
 
 Drone swarms are  attractive  to on-demand  provide capacity and coverage  in mobile access networks. 
 As drones are power-hungry lasers can be used to deliver power to them.
-Lest we need LoS from a laser, a master drone with a steerable mirror can be used to forward power
-to slave drones, with only minor efficiency loss. 
-Once such  laser \& mirror are in place, they can also be used to simultaneously deliver data to the 
-selected slave drone, alleviating radio link congestion towards slave drones. 
-This capability creates a trade-off between power and data delivery: how to decide which drone should 
-be targeted for power or data delivery and how to split the laser between power and data, once a drone has been 
-selected.  
-We study this trade-off for different radio, power delivery, and usage models, casting it as an optimisation problem for the 
-operational time of a drone network. We found that our system and optimisation framework can extend the drone swarm’s overall 
-lifetime by 8.5% when delivering power only. Meanwhile, when delivering both power and data, 
-the swarm also gains extra capacity via a high-throughput FSO link -- though with a smaller increase in overall lifetime -- 
-all without needing additional drones.
+Lest we need LoS from a laser, a master drone with a steerable mirror can be used to forward power to slave drones, with only minor efficiency loss. Once such  laser \& mirror are in place, they can also be used to simultaneously deliver data to the selected slave drone, alleviating radio link congestion towards slave drones. This capability creates a trade-off between power and data delivery: how to decide which drone should be targeted for power or data delivery and how to split the laser between power and data, once a drone has been selected. We study this trade-off for different radio, power delivery, and usage models, casting it as an optimisation problem for the operational time of a drone network. We found that our system and optimisation framework can extend the drone swarm’s overall 
+lifetime by 8.5% when delivering power only. Meanwhile, when delivering both power and data, the swarm also gains extra capacity via a high-throughput FSO link -- though with a smaller increase in overall lifetime -- all without needing additional drones.
 
 **Key Contributions:**
 
