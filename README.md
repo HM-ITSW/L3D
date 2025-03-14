@@ -34,10 +34,10 @@ all without needing additional drones.
 
 **Key Contributions:**
 
-- We proposed a novel laser-assisted aerial communication network model that extends UAV operation through laser power delivery, eliminating the need for base station proximity and direct LoS constraints, typical of prior approaches.
-- We used the dual use of the laser for power and data, enabling a trade-off between extra capacity and reduced lifespan based on system requirements.
-- We presented a method to maximize coverage while ensuring a minimum fraction of users remain connected throughout the drone swarm’s operation.
-- We developed a framework that decides when to recharge which drone -- and optionally offload data to -- without compromising coverage.
+- We propose a novel laser-assisted aerial communication network model that extends UAV operation through laser power delivery, eliminating the need for base station proximity and direct LoS constraints, typical of prior approaches.
+- We use the dual use of the laser for power and data, enabling a trade-off between extra capacity and reduced lifespan based on system requirements.
+- We present a method to maximize coverage while ensuring a minimum fraction of users remain connected throughout the drone swarm’s operation.
+- We develope a framework that decides when to recharge which drone -- and optionally offload data to -- without compromising coverage.
 
 **Datasets:**
 
